@@ -1,0 +1,7 @@
+bin
+obj
+charts
+.dockerignore
+Dockerfile*
+azds.yaml
+.vscode
