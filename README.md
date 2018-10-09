@@ -16,7 +16,7 @@ Slides & code samples from dotnet meetup Belfast (11/09/2018)
 First you will need to create your AKS (Azure Kubernetes Service) cluster, which can be done by running the following commands:
 ```
 az group create --name DevSpacesDemo --location westeurope
-az aks create -g DevSpacesDemo -n AksDevSpacesDemo --location westeurope --kubernetes-version 1.11.2 --enable-addons http_application_routing -c 1 --node-vm-size Standard_A1 --node-osdisk-size 30
+az aks create -g DevSpacesDemo -n AksDevSpacesDemo --location westeurope --kubernetes-version 1.11.2 --enable-addons http_application_routing -c 1 --disable-rbac -p devspaces-demo
 az aks use-dev-spaces -g DevSpacesDemo -n AksDevSpacesDemo
 ```
 
