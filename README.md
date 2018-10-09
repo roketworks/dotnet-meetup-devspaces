@@ -43,3 +43,4 @@ azds prep
 ## References 
 * [Azure Dev Spaces Getting Started (Dotnet core)](https://docs.microsoft.com/en-us/azure/dev-spaces/get-started-netcore)
 * [Azure Dev Spaces Team Development (Dotnet Core)](https://docs.microsoft.com/en-us/azure/dev-spaces/team-development-netcore)
+* [DotnetConf2018](https://github.com/dotnet-presentations/dotnetconf2018/blob/master/Technical/Decks/.NET%20Core%20Microservice%20Development%20Made%20Easy%20with%20Azure%20Dev%20Spaces.pptx)
